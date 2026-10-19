@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Happy Birthday!</title>
+<title>!Feliz Cumpleaños, preciosa!</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Lato:wght@300;400&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -63,9 +63,9 @@
      ============================================================ -->
 <script>
   const SETTINGS = {
-    herName:  "My Love",                      // her name or nickname
-    yourName: "Your Name",                    // your name
-    subtitle: "A little something I made for you, from far away.",
+    herName:  "Mi Jemina preciosa",                      // her name or nickname
+    yourName: "Yo pues quién más",                    // your name
+    subtitle: "Te amo mucho <3",
 
     // The date you will see each other again (YEAR-MONTH-DAY).
     // Leave it as "" if you don't want a countdown.
@@ -73,21 +73,22 @@
     reunionText: "until I get to hug you",
 
     // Your birthday message. Each new line is kept.
-    message: `Happy birthday, my love!
+    message: `Feliz Cumpleaños, mi vidita!
 
-Even though we are in different countries, you are always close to me.
-Write here what you really feel: how you met, what you admire about her,
-what makes her laugh, and what you dream about for the two of you.
+A pesar de estar lejos, estoy muy orgulloso de todo lo que estás logrando.
+Eres la mejor del mundo mundial y espero que cumplas todos tus sueños :D
+Espero estar ahí en cada pasito que das y que sepas que cuentas conmigo para
+todo lo que tú necesites. Te amo mucho. Eres el amor de mi vida. 
 
-I love you.`,
+Ai lof u very mach <3.`,
 
     // Your reasons. Add or remove lines as you like.
     reasons: [
-      "Your smile makes my whole day better.",
-      "You are kind to everyone around you.",
-      "You make me want to be a better person.",
-      "Write a funny or personal reason here.",
-      "Write another one here."
+      "Una niña muy inteligente.",
+      "Siempre estás pendiente de nosotros.",
+      "Nunca te rindes tan fácil y siempre luchas por lo que crees.",
+      "Una niña muy tierna y preciosa que quiere superarse siempre.",
+      "Por ser tú."
     ],
 
     // Photo file names. Upload the photos to the same place as this file.
@@ -99,23 +100,23 @@ I love you.`,
 <section id="top">
   <h1 id="title"></h1>
   <p class="subtitle" id="subtitle"></p>
-  <button id="openBtn">Open your gift 🎁</button>
+  <button id="openBtn">Abre tu Regalooooo 🎁</button>
   <div class="card" id="message"></div>
 </section>
 
 <section id="countdownSection" style="display:none">
-  <h2>Counting the days</h2>
+  <h2>Contando los días</h2>
   <div class="countdown" id="countdown"></div>
   <p style="margin-top:16px" id="reunionText"></p>
 </section>
 
 <section id="reasonsSection">
-  <h2>Reasons I love you</h2>
+  <h2>Razones por las que te amo</h2>
   <div class="card"><ol id="reasons"></ol></div>
 </section>
 
 <section id="gallerySection" style="display:none">
-  <h2>Our moments</h2>
+  <h2>Nuestros pequeños momentos (aunque hay más)</h2>
   <div class="gallery" id="gallery"></div>
 </section>
 
